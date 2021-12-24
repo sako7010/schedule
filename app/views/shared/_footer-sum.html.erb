@@ -1,0 +1,6 @@
+<footer>
+  <h1>現在の日時 : <% today = Date.today %>
+	  <%= today.strftime("%Y年%m月%d日")%>
+	  <span>スケジュール合計 :  <%= Post.count %></span>
+  </h1>
+</footer>
