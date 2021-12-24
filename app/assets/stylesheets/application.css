@@ -1,15 +1,88 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+/*common*/
+.failure , .success{
+	text-align: center;
+	padding: 15px;
+	width: 300px;
+	margin:10px 20px;
+	color: white;
+	background-color: orange;
+}
+
+ul li {
+	list-style: none;
+}
+
+.line{
+	text-decoration: none;
+}
+
+header{
+	width: 100%;
+	padding: 5px;
+	background-color: tomato;
+	color: #fff;
+	margin: 0px;
+}
+
+footer {
+	width: 100%;
+	background-color: tomato;
+	color: #fff;
+	margin: 0px;
+	position: absolute;
+	bottom: 0px;
+}
+
+footer h1{
+	padding: 5px;
+}
+
+footer span {
+	margin-left: 30px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 100px;
+	box-sizing: border-box;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table th {
+	background-color: pink;
+}
+
+table th, table td {
+	border: solid 1px black;
+	padding: 10px 20px;
+}
+
+table td {
+	background-color: #f1c8c861;
+	text-align: center;
+}
+
+.top,.new,.edit,.show{
+	padding-left: 20px;
+}
+
+
+/*new*/
+.make input{
+	width: 100%;
+  padding: 5px;
+  font-size: 12px;
+}
+
+/*show*/
+.detail_memo{
+	width: 100%;
+	height: 100px;
+}
+
